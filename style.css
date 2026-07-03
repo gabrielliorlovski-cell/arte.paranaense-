@@ -2,3 +2,14 @@ body{
     background-color: green;
     color: yellow;
 }
+header{
+    background-color:#099989;
+    color:#FFF2EB
+}
+main{
+    background-color: cadetblue;
+}
+footer{
+    background-color: beige;
+    color: blue;
+}
