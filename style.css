@@ -89,3 +89,18 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
+button:hover{
+    background-color: var(--cor-hover)
+}
+.curtir{
+    diplay:block
+    width:fit-content 
+    margin:20px auto;
+}
+.galeria{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
