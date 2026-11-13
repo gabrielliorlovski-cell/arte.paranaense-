@@ -1,16 +1,21 @@
-const botoesCurti = document.querySelecorAll(."curtir");
-botoesCurti. forEach(function(botoesCurti){
+const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir. forEach(function(botoesCurtir){
     let curtiu = false
-    botaoCurtir.addEventListener("clik", curtir);
+    botaoCurtir.addEventListener("click", curtir);
 function curtir(){
-    const contador = botaoCurtir. querySelector ("span");
-    if (curtiu == false){
-        contador. textContnt++;
-        curtiu  = true; }
+    const contador = botaoCurtir.querySelector("span");
+    if (curtiu === false){
+        contador.textContnt++;
+        curtiu = true;
+    }
         else{
             contador.textContnt--;
             curtiu = false;
         }
+    } 
+});
 
-}    
-}
+
+
+
+
